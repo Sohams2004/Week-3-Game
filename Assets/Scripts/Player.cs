@@ -37,5 +37,11 @@ public class Player : GameManager
             Scene scene = SceneManager.GetActiveScene();
             SceneManager.LoadScene(scene.buildIndex);
         }
+
+        if(other.gameObject.CompareTag("Win"))
+        {
+            Time.timeScale = 0;
+            winPanel.SetActive(true);
+        }
     }
 }

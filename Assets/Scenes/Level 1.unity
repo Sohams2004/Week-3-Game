@@ -1199,14 +1199,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8978600592335857890, guid: 436bdf517952faa48ac53eb9ca4ae0b5, type: 3}
+      propertyPath: movement
+      value: 
+      objectReference: {fileID: 1516758765}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 516536992826902934, guid: 436bdf517952faa48ac53eb9ca4ae0b5, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1733652295}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 436bdf517952faa48ac53eb9ca4ae0b5, type: 3}
+--- !u!114 &1516758765 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2927716224695703923, guid: 436bdf517952faa48ac53eb9ca4ae0b5, type: 3}
+  m_PrefabInstance: {fileID: 1516758764}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a005c22954a98445b09e54db6dbd330, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1527706886
 GameObject:
   m_ObjectHideFlags: 0
@@ -1582,38 +1594,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!1 &1733652282 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 516536992826902934, guid: 436bdf517952faa48ac53eb9ca4ae0b5, type: 3}
-  m_PrefabInstance: {fileID: 1516758764}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1733652290 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2927716224695703923, guid: 436bdf517952faa48ac53eb9ca4ae0b5, type: 3}
-  m_PrefabInstance: {fileID: 1516758764}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1733652282}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a005c22954a98445b09e54db6dbd330, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1733652295
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1733652282}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f59beb17389a694e8a6ba70348987a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  firsClick: 0
-  secondClick: 0
-  lastClickTime: 0
-  movement: {fileID: 1733652290}
 --- !u!1 &1850225916
 GameObject:
   m_ObjectHideFlags: 0
@@ -1644,6 +1624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pausePanel: {fileID: 35811367}
+  winPanel: {fileID: 0}
 --- !u!4 &1850225918
 Transform:
   m_ObjectHideFlags: 0

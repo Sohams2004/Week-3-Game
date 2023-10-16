@@ -179,6 +179,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8978600592335857890, guid: 436bdf517952faa48ac53eb9ca4ae0b5, type: 3}
+      propertyPath: movement
+      value: 
+      objectReference: {fileID: 1163856797}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -524,7 +528,7 @@ GameObject:
   - component: {fileID: 593096446}
   m_Layer: 0
   m_Name: Floor
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -891,6 +895,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1163856797 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2927716224695703923, guid: 436bdf517952faa48ac53eb9ca4ae0b5, type: 3}
+  m_PrefabInstance: {fileID: 115480034}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a005c22954a98445b09e54db6dbd330, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1385412547
 GameObject:
   m_ObjectHideFlags: 0

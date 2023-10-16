@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private GameObject pausePanel;
 
-
+    public GameObject winPanel;
     private void Start()
     {
         Time.timeScale = 1.0f;
