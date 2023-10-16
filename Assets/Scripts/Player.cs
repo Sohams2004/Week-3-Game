@@ -11,5 +11,11 @@ public class Player : GameManager
         {
             SceneManager.LoadScene("Tutorial 2");
         }
+
+        if (other.gameObject.CompareTag("Hazard"))
+        {
+            Scene scene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(scene.buildIndex);
+        }
     }
 }

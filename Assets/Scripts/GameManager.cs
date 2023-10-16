@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject gameOverPanel;
+    //public GameObject gameOverPanel;
 
     private void Start()
     {
