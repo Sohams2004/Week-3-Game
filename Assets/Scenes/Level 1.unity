@@ -375,7 +375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34e49ccc6791783449dfa9611dfc2ee5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  platformSpeed: 2
+  platformSpeed: 5
   startPoint: 0
   pointIndex: 0
   points:
@@ -977,7 +977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34e49ccc6791783449dfa9611dfc2ee5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  platformSpeed: 2
+  platformSpeed: 5
   startPoint: 0
   pointIndex: 0
   points:
@@ -1186,7 +1186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34e49ccc6791783449dfa9611dfc2ee5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  platformSpeed: 2
+  platformSpeed: 5
   startPoint: 0
   pointIndex: 0
   points:
@@ -1367,7 +1367,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34e49ccc6791783449dfa9611dfc2ee5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  platformSpeed: 2
+  platformSpeed: 5
   startPoint: 0
   pointIndex: 0
   points:

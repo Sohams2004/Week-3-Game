@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a005c22954a98445b09e54db6dbd330, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 10
+  movementSpeed: 8
   playerRb: {fileID: 1760435453521830395}
   firsClick: 0
   secondClick: 0
