@@ -12,6 +12,26 @@ public class Player : GameManager
             SceneManager.LoadScene("Tutorial 2");
         }
 
+        if(other.gameObject.CompareTag("Level 1"))
+        {
+            SceneManager.LoadScene("Level 1");
+        }
+        
+        if(other.gameObject.CompareTag("Level 2"))
+        {
+            SceneManager.LoadScene("Level 2");
+        }
+        
+        if(other.gameObject.CompareTag("Level 3"))
+        {
+            SceneManager.LoadScene("Level 3");
+        }
+        
+        if(other.gameObject.CompareTag("Level 4"))
+        {
+            SceneManager.LoadScene("Level 4");
+        }
+
         if (other.gameObject.CompareTag("Hazard"))
         {
             Scene scene = SceneManager.GetActiveScene();

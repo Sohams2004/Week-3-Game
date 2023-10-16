@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Hazard
   - Next
+  - Level 1
+  - Level 2
+  - Level 3
+  - Level 4
   layers:
   - Default
   - TransparentFX
