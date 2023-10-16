@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 8
-  jumpForce: 10
+  jumpForce: 6
   playerRb: {fileID: 1760435453521830395}
   jumpLimit: 0
 --- !u!114 &-538153059881783943
